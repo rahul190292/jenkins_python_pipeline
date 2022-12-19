@@ -8,8 +8,10 @@ pipeline {
         }
         stage('RunPython') {
             steps {
-                sh 'python3 hello.py'
+                bat 'python3 hello.py'
             }
         }
     }
 }
+
+
